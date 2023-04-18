@@ -67,3 +67,5 @@ fp-info-cache
 *.dsn
 *.ses
 
+# project specific
+/hardware/CYMOCAN_G0-backups
