@@ -48,12 +48,17 @@ Thumbs.db
 *.mov
 *.wmv
 
-# Ignore list for KiCAD Projects
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
 # Temporary files
 *.000
 *.bak
 *.bck
 *.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
 *.sch-bak
 *~
 _autosave-*
@@ -61,11 +66,17 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+
 # Netlist files (exported from Eeschema)
 *.net
+
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
+
+# Exported BOM files
+*.xml
+*.csv
 
 # project specific
 /hardware/CYMOCAN_G0-backups
