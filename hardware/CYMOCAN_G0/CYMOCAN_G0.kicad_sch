@@ -3358,12 +3358,12 @@
   )
 
   (symbol (lib_id "Device:LED") (at 43.18 185.42 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 6c1111ac-e9c7-48ca-89aa-fcc613a53240)
     (property "Reference" "D2" (at 44.7675 179.07 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "TX2_IND" (at 44.7675 181.61 0)
+    (property "Value" "RX2_IND" (at 44.7675 181.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 43.18 185.42 0)
@@ -3372,8 +3372,8 @@
     (property "Datasheet" "~" (at 43.18 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ed395ee5-cdc8-4e78-8b83-76e007212040))
-    (pin "2" (uuid 74b32b2a-4dd7-41d3-b4bb-5cfcc2232535))
+    (pin "1" (uuid d47b5bb7-8a5a-4be9-a8fe-c7032e5ffff9))
+    (pin "2" (uuid 9c67552c-d8eb-4e85-8f9b-09c5cd877cc5))
     (instances
       (project "CYMOCAN_G0"
         (path "/07379314-b825-406b-8373-88884ab97b15"
